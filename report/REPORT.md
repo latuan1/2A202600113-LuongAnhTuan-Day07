@@ -29,7 +29,7 @@
 **Why is cosine similarity preferred over Euclidean distance for text embeddings?**
 > Cosine similarity đo lường sự tương đồng về hướng (ý nghĩa) thay vì độ lớn, phù hợp hơn cho so sánh văn bản vì độ dài vector embedding không quan trọng bằng ý nghĩa.
 
-### Chunking Math (Ex 1.2)
+### Exercise 1.2 — Chunking Math
 
 **A document is 10,000 characters. You chunk it with `chunk_size=500`, `overlap=50`. How many chunks do you expect?**
 > Phép tính: num_chunks = ceil((10,000 - 50) / (500 - 50)) = ceil(9950 / 450) ≈ 23.22 → 24 chunks.
